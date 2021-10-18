@@ -9,7 +9,7 @@ const Home = () => {
     const [user, changeUser] = useState({
         name: '',
         fname: '',
-        gender: '',
+        gender: 'Male',
         address: '',
         pincode:'',
         postoffice:'',
