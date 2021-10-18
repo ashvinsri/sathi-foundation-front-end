@@ -125,7 +125,7 @@ const Home = () => {
                                     <label for="fname" className="label">Address</label>
                                 </div>
                                 <div className="form-field col-lg-6">
-                                    <input className="input-text" type="text" name="pincode" id="pincode"  maxLength="6" pattern="[0-9]{6}" value={user.pincode}  onChange={pinCode} required />
+                                    <input className="input-text" type="text" name="pincode" placeholder="Enter Pincode" id="pincode"  maxLength="6" pattern="[0-9]{6}" value={user.pincode}  onChange={pinCode} required />
                                 </div>
                                 <div className="form-field col-lg-6">    
                                 <select className ="input-text" name='postoffice' id="postoffice" value={user.postoffice} onChange={handleInput}>
