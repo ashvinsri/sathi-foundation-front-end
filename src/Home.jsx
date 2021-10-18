@@ -47,7 +47,7 @@ const Home = () => {
         }
         console.log(users)
         
-        axios.post('http://127.0.0.1:8000/member_create/',users)
+        axios.post('https://sathifoundation.pythonanywhere.com/member_create/',users)
         .then(response =>{
             history.push("\payment");
         }).catch(error=>{
