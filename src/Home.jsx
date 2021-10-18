@@ -9,7 +9,7 @@ const Home = () => {
     const [user, changeUser] = useState({
         name: '',
         fname: '',
-        gender: 'Male',
+        gender: '',
         address: '',
         pincode:'',
         postoffice:'',
@@ -114,6 +114,7 @@ const Home = () => {
                                 </div>
                                 <div className="form-field col-lg-6">
                                     <select id="gender" name="gender" className="input-text" value={user.gender} onChange={handleInput}>
+                                        <option value="Choose One" selected="selected">Choose One</option>
                                         <option value="Male" selected="selected">Male</option>
                                         <option value="Female" selected="selected">Female</option>
                                     </select>
